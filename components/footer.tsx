@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="border-t bg-slate-100">
+    <footer className="border-t">
       <div className="flex justify-center items-center gap-4">
         {/*  */}
         <svg
@@ -328,7 +328,7 @@ const Footer = () => {
           />
         </svg>
       </div>
-      <hr />
+
       <div className="mx-auto py-5">
         <p className="text-center text-xs text-black">
           {" "}
