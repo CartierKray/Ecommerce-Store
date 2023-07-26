@@ -13,7 +13,7 @@ interface ProductCard {
 
 const ProductCard: React.FC<ProductCard> = ({ data }) => {
   return (
-    <div className="bg-white group cursors-pointer riunded-xl border p-3 space-y-4">
+    <div className="bg-white group cursors-pointer rounded-xl border p-3 space-y-4">
       {/* Images and Actions */}
       <div className="aspect-square rounded-xl bg-gray-100 relative">
         <Image
@@ -41,7 +41,7 @@ const ProductCard: React.FC<ProductCard> = ({ data }) => {
         <p className="text-sm text-gray-500">{data.category?.name}</p>
       </div>
       {/* Price */}
-      <div className="flex items-cener justify-between">
+      <div className="flex items-center justify-between">
         <Currency value={data?.price} />
       </div>
     </div>
