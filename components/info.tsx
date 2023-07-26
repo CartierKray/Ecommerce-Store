@@ -36,19 +36,22 @@ const Info: React.FC<InfoProps> = ({ data }) => {
               <b>KingSize Dimensions:</b>The Luxe KingSize Bed offers ample
               space, providing you and your partner with the ultimate sleeping
               comfort. Stretch out and enjoy the freedom of a spacious sleeping
-              surface. <br />
+              surface.
+              <br /> <br />
               <b>Premium Quality Materials:</b> This bed is constructed with
               high-quality materials, ensuring durability and longevity. The
               sturdy frame and expert craftsmanship guarantee a reliable and
-              sturdy foundation for years to come. <br />
+              sturdy foundation for years to come.
+              <br /> <br />
               <b>Plush Comfort:</b> The Luxe KingSize Bed is designed with a
               plush and luxurious mattress, providing you with a cloud-like feel
               as you sink into its softness. The carefully selected mattress
               materials ensure optimal support and pressure relief for a restful
               nights sleep.
-              <br /> <b>Elegant Design:</b> Its sleek and modern design adds an
-              elegant touch to any bedroom decor. The minimalist aesthetics
-              blend seamlessly with various interior styles, making it a perfect
+              <br /> <br />
+              <b>Elegant Design:</b> Its sleek and modern design adds an elegant
+              touch to any bedroom decor. The minimalist aesthetics blend
+              seamlessly with various interior styles, making it a perfect
               centerpiece for your bedroom. Easy Assembly: The Luxe KingSize Bed
               comes with easy-to-follow assembly instructions, ensuring a
               hassle-free setup process. You will be able to enjoy your new bed
