@@ -29,8 +29,8 @@ const Info: React.FC<InfoProps> = ({ data }) => {
             style={{ backgroundColor: data?.color?.value }}
           />
         </div>
-        <div className="flex flex-col-2 gap-y-6 gap-x-4">
-          <h3 className="font-semibold text-black">Description:</h3>
+        <div className="flex flex-col-2 gap-y-6 gap-x-5">
+          <h3 className="font-semibold text-black">Info:</h3>
           <div className=" text-black">
             <p className="text-sm">
               <b>KingSize Dimensions:</b>The Luxe KingSize Bed offers ample
@@ -60,8 +60,8 @@ const Info: React.FC<InfoProps> = ({ data }) => {
           </div>
         </div>
       </div>
-      <div className="mt-10 flex items-center gap-x-3">
-        <Button className="flex items-center gap-x-2">
+      <div className="mt-10 flex items-center justify-center gap-x-3">
+        <Button className="flex items-center gap-x-3">
           Add To Cart
           <ShoppingCart />
         </Button>
