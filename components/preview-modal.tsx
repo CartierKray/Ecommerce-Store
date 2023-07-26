@@ -26,6 +26,5 @@ const PreviewModal = () => {
     </Modal>
   );
 };
-("use client");
 
 export default PreviewModal;
